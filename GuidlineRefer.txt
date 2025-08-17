@@ -1,0 +1,125 @@
+# JavaScriptBasci
+
+Learn from scratch java script
+20-07-2025
+38:44
+All topics
+23-07-2025
+59:27
+1:05:38
+Questions
+24-07-2025
+1:22:20
+Prettier extion for (code formatting)
+live server for (exection on browser)
+1:25:44
+press key in key board : Shift+!(emmet abbrivation )
+1:35:24
+Emoji picker(windows+;)
+Official Documentation
+ECMAScript Specification
+Syntax, semantics and features of the language
+https://ecma-international.org/publications-and-standards/ecma-262
+Mozilla Developer Network(MDN)
+tutorial,refernces and examples
+https://developer.mozilla.org/en-us/docs/web/javaScripts/Guide
+https://developer.mozilla.org/en-us/docs/web/javaScripts/Reference
+1:48:20
+
+Data Types 8 it is splited into 2
+1 Primitive
+    1 number
+    2 string
+    3 boolean
+    4 null
+    5 undefined
+    6 bigint
+    7 symbol
+2 Non-Primitive
+    1 object
+code            Description
+\b                Backspace
+\f                Form feed
+\n                New line
+\t              Horizontal tab
+\v               Vertical tab
+\r             Carriage return
+\\               Backslash
+\'\"\`            Quotes
+
+Rules for naming identifiers
+1. The name must contain only letters,digits or the symbols $ and _
+    1.Letters a-z,A-z
+    2.Digits 0-9
+    3.Dollar sign $
+    4.Underscore _
+    5.They cannot include spaces or Special characters
+2.First character must not be a digit
+3.The name can not be a JavaScript keyword/reserved word
+
+2:56:40
+add prog
+
+good developer follow below Rules
+1. use meaning full names that describe the purpose of the variable
+2. use camelCase for variables and functions, pascalcase for classes
+3. Avoid using single character name except for loop counters. Eg:i,j
+
+what is variable?
+1.variable is like container/storage box that holds a value
+2.variable allows us to store, retrive and modify the Data
+3.variables can be declared using var,let and const keywords
+
+Var 
+1)variables declared with var can be redeclared
+2)var is the only keyword used to create variables till 2015
+3)let and const were introduced in ES6 (ECMAScript 2015)
+
+diffrences between var,let and const key words 
+var
+1)variables declared with var can be re-assigned and re-declared within the same scope
+2)it is recommended to avoid using var in modern JavaScript.
+let
+1)variables declared with let can be re-assigned but can not be re-declared in the same scope
+2)Preferred for variables that may need to change value
+const
+1)variables declared with const can not be re-assigned but  re-declared  But...
+2)Bet for variables that should not be reassigned To avoid mistakes 
+
+Expression 
+ expression is any piece of code that produces a value when evaluated
+Literal 
+ A literal is a fixed value written directly in the code, such as numbers, strings, arrays and objects
+
+ All the literals are called expressions 
+ (``) template literals
+ (``) template literals are very powerful
+ expresion canb placed into template literals
+Summary 
+1)statements:Insstruction thst performed actions.
+2)Expression:Parts of the code that evaluate to values.
+3)Literals:Fixed values directly represented in the code. 
+
+ JavaScript can only execute one instructio at a time that's why it is called single threaded
+ ctrl+shift+i this short cut is used for browser console
+
+Why JavaScript single threaded?
+Synchronous and asynchronous Programming.
+Synchronous:-
+1)Synchronous Programming means that tasks are executed sequentilly, one after the other.
+2)Each operation must complete before the next one begins.
+3)In this model, the program execution is blocked until thr current task is finished
+asynchronous:-
+1)Tasks are ececuted independently of the main thread
+2)Program can continue runing while waiting for other task to complete
+3)In this model, the program execution is not blocked until the current task is finished
+
+//Comments 
+windows 
+ single line :- Ctrl+/
+ multi line :- sift+alt+A
+Mac 
+ single line :- cmd+/
+ multi line :- sift+option+A
+ 4.26.00
+ 
