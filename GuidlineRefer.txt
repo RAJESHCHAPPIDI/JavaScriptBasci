@@ -121,4 +121,11 @@ windows
 Mac 
  single line :- cmd+/
  multi line :- sift+option+A
-  4:15:00
+
+Let can't be used before insilize, but var can be used 
+
+object is an entity /things that has state and behavior
+State-properties = variables
+behavior-Actions = functions
+
+Class is blueprint to create objects
